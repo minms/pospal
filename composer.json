@@ -1,0 +1,21 @@
+{
+  "name": "minms/pospal",
+  "description": "银豹商超系统PHP接口",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "杜晶",
+      "email": "master@minms.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "minms\\pospal\\": "src/"
+    }
+  }
+}
